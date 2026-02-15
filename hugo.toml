@@ -47,8 +47,3 @@ theme = 'PaperMod'
         name = 'Coffee Chat'
         url = 'https://calendar.app.google/2fADVvsqhLMpdNGa7'
         weight = 20
-    [[menu.main]]
-        identifier = 'admin'
-        name = 'Admin'
-        url = '/admin/'
-        weight = 30
