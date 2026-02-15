@@ -1,0 +1,7 @@
+name = "decap-oauth-gateway"
+main = "index.js"
+compatibility_date = "2026-02-15"
+
+[vars]
+GITHUB_CLIENT_ID = ""
+GITHUB_CLIENT_SECRET = ""

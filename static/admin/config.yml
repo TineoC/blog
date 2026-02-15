@@ -2,6 +2,7 @@ backend:
   name: github
   repo: TineoC/blog
   branch: main
+  base_url: https://decap-oauth-gateway.tineochristopher.workers.dev
 
 media_folder: "static/images"
 public_folder: "/images"
