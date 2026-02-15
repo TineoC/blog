@@ -54,4 +54,3 @@ The admin portal is restricted to a specific GitHub user via the Cloudflare Work
 1. Go to the Cloudflare Dashboard.
 2. Navigate to your Worker (`decap-oauth-gateway`).
 3. Under **Settings > Variables**, update the `ALLOWED_USER` environment variable.
-

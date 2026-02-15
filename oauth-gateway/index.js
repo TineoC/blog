@@ -42,7 +42,7 @@ export default {
       if (user.login !== allowedUser) {
         return new Response("Unauthorized: Access restricted to " + allowedUser, { status: 403 });
       }
-      
+
       return new Response(`
         <script>
           const receiveMessage = (message) => {

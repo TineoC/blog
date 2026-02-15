@@ -54,7 +54,7 @@
                     </svg>
                 </button>
                 {{- end }}
-                
+
                 {{- if (not site.Params.disableLangToggle) }}
                     {{- $lang := .Lang}}
                     {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
@@ -105,7 +105,7 @@
                 </a>
             </li>
             {{- end }}
-            {{- if site.IsServer }}
+            {{- if hugo.IsServer }}
             <li>
                 <a href="/admin/" title="Admin">
                     <span>Admin</span>

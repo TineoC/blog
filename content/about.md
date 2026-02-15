@@ -9,7 +9,7 @@ draft = false
 ![Christopher Tineo](https://avatars.githubusercontent.com/u/40866642?v=4)
 
 # Christopher Tineo
-**Software Engineer** | [LinkedIn](https://www.linkedin.com/in/christopher-tineo) | [GitHub](https://github.com/TineoC) | [Coffee Chat ☕](https://calendar.app.google/2fADVvsqhLMpdNGa7)  
+**Software Engineer** | [LinkedIn](https://www.linkedin.com/in/christopher-tineo) | [GitHub](https://github.com/TineoC) | [Coffee Chat ☕](https://calendar.app.google/2fADVvsqhLMpdNGa7)
 📧 [christophertineo02@gmail.com](mailto:christophertineo02@gmail.com)
 
 ---
