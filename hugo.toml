@@ -14,6 +14,10 @@ theme = 'PaperMod'
         enabled = true
         title = 'Christopher Tineo'
         subtitle = 'Building things and sharing thoughts.'
+        imageUrl = 'https://media.licdn.com/dms/image/v2/D4E03AQGAwKLESo8Lrg/profile-displayphoto-scale_200_200/B4EZmpQCtaKoAY-/0/1759481181365?e=1772668800&v=beta&t=qm2Xde3s126Ru_DsrxecrPbbgxVIEeHKgW_o5E9e1u0'
+        imageTitle = 'Christopher Tineo'
+        imageWidth = 120
+        imageHeight = 120
         
         [[params.profileMode.buttons]]
             name = 'Blog Posts'
