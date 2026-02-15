@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -12,6 +13,7 @@ jobs:
     permissions:
       contents: read
       deployments: write
+      pull-requests: write # Allow adding a comment with the preview URL
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,4 +38,4 @@ jobs:
           projectName: tineo-blog
           directory: public
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: ${{ github.head_ref || github.ref_name }}
