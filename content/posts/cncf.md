@@ -1,6 +1,6 @@
 ---
-title: CNCF
-date: 2026-02-15T01:18:00.000-05:00
+title: How to 10x your career through the CNCF Communities
+date: ""
 draft: true
 ---
-CNCF
+My journey started back in Jan 2024.
