@@ -9,6 +9,11 @@ theme = 'PaperMod'
     description = 'Software Engineer'
     author = 'Christopher Tineo'
     
+[frontmatter]
+    date = ["date", "publishDate", ":fileModTime"]
+    publishDate = ["publishDate", "date"]
+    lastmod = ["lastmod", ":fileModTime", "publishDate", "date"]
+
     # Profile Mode (Home Page)
     [params.profileMode]
         enabled = true
@@ -47,3 +52,8 @@ theme = 'PaperMod'
         name = 'Coffee Chat'
         url = 'https://calendar.app.google/2fADVvsqhLMpdNGa7'
         weight = 20
+    [[menu.main]]
+        identifier = 'admin'
+        name = 'Admin'
+        url = '/admin/'
+        weight = 30
