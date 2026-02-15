@@ -33,6 +33,11 @@ theme = 'PaperMod'
 
 [menu]
     [[menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about/'
+        weight = 5
+    [[menu.main]]
         identifier = 'posts'
         name = 'Posts'
         url = '/posts/'

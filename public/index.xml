@@ -1,20 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Christopher Tineo</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Christopher Tineo</description>
-    <generator>Hugo -- 0.146.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 15 Feb 2026 00:40:41 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sun, 15 Feb 2026 00:40:41 -0500</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;Welcome to my new blog! This site is built with Hugo and the PaperMod theme.&lt;/p&gt;
-&lt;p&gt;Check out my &lt;a href=&#34;https://www.linkedin.com/in/christopher-tineo/&#34;&gt;LinkedIn&lt;/a&gt; or &lt;a href=&#34;https://calendar.app.google/2fADVvsqhLMpdNGa7&#34;&gt;schedule a coffee chat&lt;/a&gt; with me!&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Christopher Tineo</title><link>https://blog.tineochristopher.com/</link><description>Recent content on Christopher Tineo</description><generator>Hugo -- 0.146.0</generator><language>en-us</language><lastBuildDate>Sun, 15 Feb 2026 00:40:41 -0500</lastBuildDate><atom:link href="https://blog.tineochristopher.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://blog.tineochristopher.com/posts/hello-world/</link><pubDate>Sun, 15 Feb 2026 00:40:41 -0500</pubDate><guid>https://blog.tineochristopher.com/posts/hello-world/</guid><description>&lt;p>Welcome to my new blog! This site is built with Hugo and the PaperMod theme.&lt;/p>
+&lt;p>Check out my &lt;a href="https://www.linkedin.com/in/christopher-tineo/">LinkedIn&lt;/a> or &lt;a href="https://calendar.app.google/2fADVvsqhLMpdNGa7">schedule a coffee chat&lt;/a> with me!&lt;/p></description></item><item><title>About Me</title><link>https://blog.tineochristopher.com/about/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.tineochristopher.com/about/</guid><description>Resume and Professional Profile of Christopher Tineo</description></item></channel></rss>
