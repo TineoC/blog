@@ -15,8 +15,13 @@ collections:
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    view_groups:
+      - {label: "Draft Status", field: "draft"}
+    view_filters:
+      - {label: "Drafts", field: "draft", pattern: true}
+      - {label: "Published", field: "draft", pattern: false}
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
