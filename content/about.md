@@ -21,6 +21,10 @@ Software Engineer with 3+ years building Kubernetes platforms across defense and
 
 ## Professional Experience
 
+### **Tech Lead** | Kubernetes SIG ContribEx
+*Jan 2026 – Present*
+- Serving as a **Kubernetes Org Member** and Tech Lead for the Contributor Experience Special Interest Group (SIG), focusing on improving the developer and contributor journey within the upstream ecosystem.
+
 ### **Senior DevOps Engineer** | Game Plan Tech
 *Nov 2025 – Present*
 - Engineered and maintained modular **Terraform** configurations to provision **GCP** resources (VPCs, Subnets, and Cloud Storage), ensuring repeatable and environment-agnostic infrastructure.
@@ -30,10 +34,6 @@ Software Engineer with 3+ years building Kubernetes platforms across defense and
 ### **Organizer** | [Cloud Native NYC](https://www.linkedin.com/company/cloud-native-nyc)
 *Nov 2025 – Present*
 - Serving as an organizer, volunteer, and speaker for the NYC cloud-native community, fostering local engagement and knowledge sharing.
-
-### **Tech Lead** | Kubernetes SIG ContribEx
-*Jan 2025 – Present*
-- Serving as a **Kubernetes Org Member** and Tech Lead for the Contributor Experience Special Interest Group (SIG), focusing on improving the developer and contributor journey within the upstream ecosystem.
 
 ### **Software Engineer II** | Innovative Defense Technologies
 *Nov 2024 – Present*
