@@ -24,6 +24,24 @@ export default {
         }),
       });
       const result = await response.json();
+
+      if (result.error) {
+        return new Response(result.error_description || result.error, { status: 400 });
+      }
+
+      // Security: Verify that the user is authorized
+      const userResponse = await fetch("https://api.github.com/user", {
+        headers: {
+          "Authorization": `token ${result.access_token}`,
+          "User-Agent": "Decap-CMS-Auth-Gateway",
+        },
+      });
+      const user = await userResponse.json();
+      const allowedUser = env.ALLOWED_USER || "TineoC";
+
+      if (user.login !== allowedUser) {
+        return new Response("Unauthorized: Access restricted to " + allowedUser, { status: 403 });
+      }
       
       return new Response(`
         <script>

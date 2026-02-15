@@ -8,7 +8,7 @@ A personal blog and professional portfolio built with [Hugo](https://gohugo.io/)
 - **Theme:** PaperMod
 - **CMS:** [Decap CMS](https://www.decapcms.org/) (formerly Netlify CMS)
 - **Deployment:** [Cloudflare Pages](https://pages.cloudflare.com/)
-- **Auth Gateway:** Custom Cloudflare Worker for GitHub OAuth
+- **Auth Gateway:** Custom Cloudflare Worker for GitHub OAuth (Locked to authorized user)
 
 ## 🛠️ Local Development
 
@@ -48,3 +48,10 @@ hugo new posts/my-new-post.md
 ## 🚢 Deployment
 
 The site is automatically deployed to Cloudflare Pages whenever changes are pushed to the `main` branch. The build process is managed via GitHub Actions defined in `.github/workflows/deploy.yml`.
+
+### Admin Security
+The admin portal is restricted to a specific GitHub user via the Cloudflare Worker gateway. To update the allowed user:
+1. Go to the Cloudflare Dashboard.
+2. Navigate to your Worker (`decap-oauth-gateway`).
+3. Under **Settings > Variables**, update the `ALLOWED_USER` environment variable.
+
