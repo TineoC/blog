@@ -1,0 +1,40 @@
+baseURL = 'https://blog.tineochristopher.com/'
+languageCode = 'en-us'
+title = 'Christopher Tineo'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'Christopher Tineo'
+    description = 'Software Engineer'
+    author = 'Christopher Tineo'
+    
+    # Profile Mode (Home Page)
+    [params.profileMode]
+        enabled = true
+        title = 'Christopher Tineo'
+        subtitle = 'Building things and sharing thoughts.'
+        
+        [[params.profileMode.buttons]]
+            name = 'Blog Posts'
+            url = 'posts'
+        
+        [[params.profileMode.buttons]]
+            name = 'Coffee Chat ☕'
+            url = 'https://calendar.app.google/2fADVvsqhLMpdNGa7'
+
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = 'https://www.linkedin.com/in/christopher-tineo/'
+
+[menu]
+    [[menu.main]]
+        identifier = 'posts'
+        name = 'Posts'
+        url = '/posts/'
+        weight = 10
+    [[menu.main]]
+        identifier = 'coffee-chat'
+        name = 'Coffee Chat'
+        url = 'https://calendar.app.google/2fADVvsqhLMpdNGa7'
+        weight = 20
